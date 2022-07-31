@@ -39,24 +39,24 @@ function determineWinner(userChoice, computerChoice){
     } 
     if (userChoice === 'human'){
         if(computerChoice === 'bear'){
-            return 'The computer won!'
+            return 'You have been mauled by a beer!'
         } else {
-            return 'The User won!'
+            return 'You disarmed a gunman!'
         }
     } 
     if (userChoice === 'bear'){
         if(computerChoice === 'gun'){
-            return 'The computer won!'
+            return 'You have been shot by a gun!'
         } else {
-            return "The user won!"
+            return "You mauled a human!"
         }
     }
 
     if (userChoice === 'gun'){
         if(computerChoice === 'human'){
-            return 'The computer won!'
+            return 'You have been disarmed!'
         } else {
-            return "The user won!"
+            return "You shot a bear!"
         }
     }
 }
